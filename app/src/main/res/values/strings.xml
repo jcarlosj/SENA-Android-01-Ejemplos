@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Ejemplos 1</string>
+
+    <string name="button_activity_main_01">Proyecto 001</string>
+    <string name="button_activity_main_02">Proyecto 002</string>
+    <string name="button_activity_main_03">Proyecto 003</string>
+    <string name="button_activity_main_04">Proyecto 004</string>
+    <string name="button_activity_main_05">Proyecto 005</string>
+    <string name="button_activity_main_06">Proyecto 006</string>
+    <string name="button_activity_proyecto002">Sumar</string>
+    <string name="button_activity_proyecto003">Calcular</string>
+
+    <string name="label_email">E-mail: jcjimenez29@misena.edu.co</string>
+    <string name="label_especializacion">Especialización Tecnológica en Desarrollo de Aplicaciones para Móviles.</string>
+    <string name="label_ingrese_segundo_valor">Ingrese el segundo valor</string>
+    <string name="label_ingrese_primer_valor">Ingrese el primer valor</string>
+    <string name="label_restar">Restar</string>
+    <string name="label_saludo">Un saludo desde esta aplicación Android desarrollada con GNU/Linux Mint con el IDE Android Studio.</string>
+    <string name="label_sena">Servicio Nacional de Aprendizaje, SENA.</string>
+    <string name="label_sumar">Sumar</string>
+
+</resources>

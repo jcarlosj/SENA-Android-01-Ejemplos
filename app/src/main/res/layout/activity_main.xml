@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    tools:context=".MainActivity"
+    android:nestedScrollingEnabled="false">
+
+    <TextView android:text="@string/label_sena" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/tv_SENA"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_especializacion"
+        android:id="@+id/tv_Especializacion"
+        android:layout_below="@+id/tv_SENA"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_email"
+        android:id="@+id/tv_Creditos"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity_main_01"
+        android:id="@+id/btn_Proyecto001"
+        android:layout_below="@+id/tv_Especializacion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:onClick="proyecto001" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity_main_02"
+        android:id="@+id/btn_Proyecto002"
+        android:layout_below="@+id/btn_Proyecto001"
+        android:layout_centerHorizontal="true"
+        android:onClick="proyecto002" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity_main_03"
+        android:id="@+id/btn_Proyecto003"
+        android:layout_below="@+id/btn_Proyecto002"
+        android:layout_centerHorizontal="true"
+        android:onClick="proyecto003" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity_main_04"
+        android:id="@+id/btn_Proyecto004"
+        android:layout_below="@+id/btn_Proyecto003"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="proyecto004" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_activity_main_05"
+        android:id="@+id/btn_Proyecto005"
+        android:layout_below="@+id/btn_Proyecto004"
+        android:layout_centerHorizontal="true"
+        android:onClick="proyecto005" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Proyecto006"
+        android:layout_below="@+id/btn_Proyecto005"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_activity_main_06"
+        android:onClick="proyecto006" />
+
+</RelativeLayout>
